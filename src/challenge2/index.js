@@ -9,7 +9,7 @@
     <p>T&Cs Apply</p>
   `
     insertBanner(banner)
-    history.pushState = function () {
+    history.pushState = () => {
       waitForElementToDisplay("[data-component-type='s-search-result']", () => insertBanner(banner), 1000, 9000)
     }
   }

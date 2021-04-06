@@ -27,7 +27,7 @@
       boundary.bottom <= (window.innerHeight || document.documentElement.clientHeight)
     )
 
-    document.addEventListener('scroll', function (e) {
+    document.addEventListener('scroll', () => {
       const buyButtonBox = document.querySelector('#add-to-cart-button').getBoundingClientRect()
       if (isInViewport(buyButtonBox)) {
         banner.classList.add('hide')
