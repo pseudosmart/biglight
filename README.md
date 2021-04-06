@@ -1,7 +1,7 @@
 # Biglight technical task
 
 ### Running locally
-`npm i`
+`npm i`  
 `npm start`
 
 This will start a node server on localhost:7000 serving up the src directory statically and then this will work with the instructions with the task.
@@ -19,7 +19,7 @@ I actually started with this one as I thought the advert banner would have been 
 
 ### Working with SASS
 If the styling needs changing then the sass will need recompiling with 
-`npm run build:sass`
+`npm run build:sass`  
 
 alternatively, I have been using 
 `npm run watch:sass`
